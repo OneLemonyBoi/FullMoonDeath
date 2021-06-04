@@ -51,10 +51,6 @@ public class OnFullMoon {
         }
     }
 
-    public static void onWorldStart(FMLServerStartedEvent event) {
-        getInstance(event.getServer());
-    }
-
     public static void onSleep(PlayerSleepInBedEvent event) {
         if (event.getPlayer().world.getMoonPhase() == 0 && event.getPlayer().world.isNightTime()) {
             event.setResult(PlayerEntity.SleepResult.OTHER_PROBLEM);
