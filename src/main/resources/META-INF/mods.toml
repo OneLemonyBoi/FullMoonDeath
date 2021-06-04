@@ -13,20 +13,20 @@ license="MIT License"
 # A list of mods - how many allowed here is determined by the individual mod loader
 [[mods]] #mandatory
 # The modid of the mod
-modId="examplemod" #mandatory
+modId="fullmoondeath" #mandatory
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
 version="${file.jarVersion}" #mandatory
  # A display name for the mod
-displayName="Example Mod" #mandatory
-credits="Hello world1" #optional
+displayName="Full Moon Death" #mandatory
+credits="OneLemonyBoi" #optional
 # A text field displayed in the mod UI
-authors="Yummy Lemons" #optional
+authors="OneLemonyBoi" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-punny joke
+This mod makes it so that when the player dies during a full moon, they are forced into spectator mode.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.examplemod]] #optional
+[[dependencies.fullmoondeath]] #optional
     # the modid of the dependency
     modId="forge" #mandatory
     # Does this dependency have to exist - if not, ordering below must be specified
@@ -38,7 +38,7 @@ punny joke
     # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 # Here's another dependency
-[[dependencies.examplemod]]
+[[dependencies.fullmoondeath]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.5,)"

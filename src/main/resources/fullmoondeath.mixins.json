@@ -1,8 +1,8 @@
 {
   "required": true,
-  "package": "onelemonyboi.examplemod.mixin",
+  "package": "onelemonyboi.fullmoondeath.mixin",
   "compatibilityLevel": "JAVA_8",
-  "refmap": "examplemod.refmap.json",
+  "refmap": "fullmoondeath.refmap.json",
   "mixins": [
   ],
   "client":[
